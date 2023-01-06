@@ -1,5 +1,5 @@
 # Membership Operators in Python
-# Code by studyopedia - interessante
+# Code by studyopedia
 
 a = ["Amit","John","Tim"]
 

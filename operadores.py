@@ -1,14 +1,24 @@
-# Assignment Operators in Python
-# Code by studyopedia
+x = 50
+y = 2
 
-a = 10
-print(a)
+print(x**y)
+print(x/y)
+print(x//y)
+print(x%y)
 
-a +=5 # a = a + 5
-print(a)
+ta_certo = True
+ta_errado = False
 
-a -=3 # a = a - 3
-print(a)
+print(not ta_certo)
+print (ta_certo or ta_errado)
+print(ta_certo and ta_errado)
 
-a *=2 # a = a * 2
-print(a)
+dolar = 5.3
+real = 1
+
+print(dolar > real)
+print(dolar < real)
+print(dolar == real)
+print(dolar >= real)
+print(dolar <= real)
+print(dolar != real)

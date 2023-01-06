@@ -1,29 +1,30 @@
-'''
-LISTAS
+"""
+Listas funcionam como vetores/matrizes (arrays) em outras linguagens, com a diferença de serem dinâmicos e também de podermos colocar qualquer tipo de dado.
 
-Listas são como vetores/matrizes (arrays), sendo dinâmicas e aceitam qualquer tipo de dados.
+Linguagem C ou Java: os arrays possuem tamanho e tipo de dados fixos;
+Um array do tipo INT e com tamanho 5, este é imutável em tipo e tamanho;
 
-- Dinâmico: não possui tamanho fixo, aceita qualquer quantidade de elementos;
-- Qualquer tipo de dados, não possue tipo de dados fixo;
-- São representadas por colchetes [ ]
+Em python
 
-'''
+- Dinâmico: não possue tamanho fixo; Ou seja pode criar a lista e adicionar elementos, conforme o tamanho da memória disponível;
+- Qualquer tipo de dado: as listas não possuem tipo de dado fixo, podendo ser alterado para qualquer tipo de dado;
 
-lista1 = [1,3,5,7,9,2,4,6,8,10,11]
-lista2 = ['A','l','e','x','a','n','d','r','e']
+As listas são representadas por colchetes: [ ]
+
+"""
+type([])
+
+lista1 = [1, 2, 3, 50, 120, 3]
+lista2 = ['G', 'e', 'n', 'X']
 lista3 = []
 lista4 = list(range(11))
-lista5 = list('Alexandre Osvaldo')
+lista5 = list('Monalisa')
 
-# Checar se um valor está contido na lista
+# Pode checar se deteerminado valor está contido na lista
 
-num = 7
+num = 10
+
 if num in lista4:
-    print(f'Valor encontrado')
+    print(f'Encontrei o número {num}')
 else:
-    print(f'Valor inexistente')
-
-if 'u' in lista5:
-    print('A letra "u" existe')
-else:
-    print('A letra "u" não existe') # parou em 20:37 minutos
+    print(f'Não encontrei o número {num}')
